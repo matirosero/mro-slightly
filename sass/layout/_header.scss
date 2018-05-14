@@ -86,21 +86,21 @@
     transform: translate(-50%, -50%);
 }
 
-@media (screen and min-width: 540px) {
+@media screen and (min-width: 540px) {
 
     .pageBannerImage {
         min-height: 380px;
     }
 }
 
-@media (screen and min-width: 728px) {
+@media screen and (min-width: 728px) {
 
     .pageBannerImage {
         min-height: 450px;
     }
 }
 
-@media (screen and min-width: 1080px) {
+@media screen and (min-width: 1080px) {
 
     .pageBannerImage {
         min-height: 500px;

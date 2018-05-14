@@ -25,7 +25,8 @@ var paths = {
 	nodePath: 'node_modules/',
 	// jsPath: 'assets/js/concat',
 	// destPath: 'assets/dist/',
-	destPath: 'css/',
+	// destPath: 'css/',
+	destPath: '',
 	// isotopePath: 'node_modules/isotope-layout/dist/',
 	// imagesLoadedPath: 'node_modules/imagesloaded/',
 	// imgPath: 'assets/img/'

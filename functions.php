@@ -116,7 +116,7 @@ add_action( 'widgets_init', 'slightly_widgets_init' );
  */
 function slightly_scripts() {
 	wp_enqueue_style( 'slightly-flexboxgrid', get_template_directory_uri() . '/css/flexboxgrid.min.css' );
-	wp_enqueue_style( 'slightly-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'slightly-style', get_template_directory_uri() . '/css/style.css' );
 
 	wp_enqueue_script( 'slightly-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
